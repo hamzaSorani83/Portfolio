@@ -40,19 +40,19 @@ const Experience: React.FC = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="Upwork" />
+            <img src={Upwork} alt="Upwork" loading="lazy" width="111px" height="111px" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="Fiverr" />
+            <img src={Fiverr} alt="Fiverr" loading="lazy" width="111px" height="111px" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="Amazon" />
+            <img src={Amazon} alt="Amazon" loading="lazy" width="111px" height="111px" />
           </div>
           <div className="w-secCircle">
-            <img src={Shopify} alt="Shopify" />
+            <img src={Shopify} alt="Shopify" loading="lazy" width="111px" height="111px" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="Facebook" />
+            <img src={Facebook} alt="Facebook" loading="lazy" width="111px" height="111px" />
           </div>
         </motion.div>
         <div className="w-backCircle blueCircle"></div>

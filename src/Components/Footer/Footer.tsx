@@ -10,7 +10,7 @@ import Github from "@iconscout/react-unicons/icons/uil-github";
 const Footer: React.FC = () => {
   return (
     <div className="footer">
-      <img src={Wave} alt="" style={{ width: "100%" }} />
+      <img src={Wave} width="100%" height="auto" loading="lazy" alt="" />
       <div className="f-content">
         <div className="f-icons">
           <a href="https://github.com/hamzaSorani83" rel="noreferrer" target="_blank">

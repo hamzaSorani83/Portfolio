@@ -43,15 +43,18 @@ const Intro: React.FC = () => {
         </div>
       </div>
       <div className="i-right">
-        <img src={Vector1} alt="Vector1" />
-        <img src={Vector2} alt="Vector2" />
-        <img src={Boy} alt="Boy" />
+        <img src={Vector1} alt="Vector1" loading="lazy"/>
+        <img src={Vector2} alt="Vector2" loading="lazy" />
+        <img src={Boy} alt="Boy"  />
         <motion.img
           initial={{ left: '-36%' }}
           whileInView={{ left: "-24%"}}
           transition={transition}
           src={Glassesimoji} alt="Glassesimoji"
           className="floating-div"
+          width="255px"
+          height="230px"
+          loading="lazy"
         />
         <motion.div
           initial={{ top: '-4%', left: '74%' }}

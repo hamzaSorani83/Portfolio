@@ -10,7 +10,7 @@ interface IProps {
 const Services: React.FC<IProps> = ({emoji, heading, details}) => {
   return (
     <div className="card">
-      <img src={emoji} alt="emoji" />
+      <img src={emoji} loading="lazy" width="126px" height="126px" alt="emoji" />
       <span>{heading}</span>
       <span>{details}</span>
       <a href="https://t.me/hamzaSo83" rel="noreferrer" target="_blank">

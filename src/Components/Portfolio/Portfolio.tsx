@@ -24,19 +24,24 @@ const Portfolio: React.FC = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://h-react-admin-dashboard.netlify.app/" rel="noreferrer" target="_blank"><img src={AdminPanel} alt="adminPanel" /></a>
+          <a href="https://h-react-admin-dashboard.netlify.app/" rel="noreferrer" target="_blank">
+            <img src={AdminPanel} loading="lazy" width="380px" height="188px" alt="adminPanel" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://hamzasorani83.github.io/bootstrap-landing-page/" rel="noreferrer" target="_blank"><img src={BootstrapPage} alt="bootstrapPage" /></a>
+          <a href="https://hamzasorani83.github.io/bootstrap-landing-page/" rel="noreferrer" target="_blank">
+            <img src={BootstrapPage} loading="lazy" width="380px" height="188px" alt="bootstrapPage" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://hamzasorani83.github.io/special-design/" rel="noreferrer" target="_blank"><img src={LandingPage} alt="landingPage" /></a>
+          <a href="https://hamzasorani83.github.io/special-design/" rel="noreferrer" target="_blank">
+            <img src={LandingPage} loading="lazy" width="380px" height="188px" alt="landingPage" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://react-burger-builder-application.netlify.app/" rel="noreferrer" target="_blank"><img src={BurgerBuilder} alt="burgerBuilder" /></a>
+          <a href="https://react-burger-builder-application.netlify.app/" rel="noreferrer" target="_blank">
+            <img src={BurgerBuilder} loading="lazy" width="380px" height="188px" alt="burgerBuilder" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://hamzasorani83.github.io/canvas-game/" rel="noreferrer" target="_blank"><img src={CanvasGame} alt="canvasGame" /></a>
+          <a href="https://hamzasorani83.github.io/canvas-game/" rel="noreferrer" target="_blank">
+            <img src={CanvasGame} loading="lazy" width="380px" height="188px" alt="canvasGame" /></a>
         </SwiperSlide>
       </Swiper>
     </div>

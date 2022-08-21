@@ -10,7 +10,7 @@ interface IProps {
 const FloatingDiv: React.FC<IProps> = ({img, text1, text2}) => {
   return (
     <div className="floatingDiv">
-      <img src={img} alt="" />
+      <img src={img} alt="" loading="lazy" width="126px" height="126px" />
       <span>
         {text1}
         <br />
