@@ -1,0 +1,19 @@
+.layout {
+    background-color: var(--main-bg);
+    color: var(--txt-color);
+    padding: 0.5rem 3.5rem;
+}
+
+.theme-mode-light {
+    --main-bg: var(--main-bg-light);
+    --black: var(--txt-color-light);
+    --card-bg: var(--card-bg-light);
+    --gray: var(--gray-light)
+}
+
+.theme-mode-dark {
+    --main-bg: var(--main-bg-dark);
+    --black: var(--txt-color-dark);
+    --card-bg: var(--card-bg-dark);
+    --gray: var(--gray-dark)
+}

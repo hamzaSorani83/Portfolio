@@ -1,0 +1,59 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+}
+
+.f-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    color: white;
+    padding-top: 2rem;
+}
+
+.f-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transform: translateY(2rem)
+}
+
+.f-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 520;
+}
+
+.f-icons {
+    display: flex;
+    gap: 2rem;
+}
+
+.f-icons svg {
+    transform: scale(.7);
+    transition: all .5;
+    cursor: pointer;
+}
+
+.f-icons svg:hover {
+    transform: scale(0.8);
+}
+
+@media screen and (max-width: 480px) {
+    .f-content {
+        transform: scale(.5);
+        padding-top: 0;
+    }
+    .f-links {
+        transform: translateY(0);
+    }
+}
