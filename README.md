@@ -5,8 +5,7 @@
 - emailjs-com
 
 # Getting Started:
-
-npm install
-cd Portfolio
-npm start
+- npm install
+- cd Portfolio
+- npm start
 
