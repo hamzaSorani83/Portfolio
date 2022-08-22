@@ -5,6 +5,7 @@
     margin-top: 4rem;
     /* scroll */
     align-items: center;
+    gap: 2rem;
 }
 
 
@@ -30,7 +31,7 @@
 
 .awesome> :nth-child(3) {
     color: var(--gray);
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 1rem;
 }
 
@@ -45,10 +46,12 @@
 
 .w-right {
     position: relative;
+    transform: scale(0.8);
+    margin-right: -60px;
 }
 
 .w-mainCircle {
-    left: 9rem;
+    /* left: 9rem; */
     position: relative;
     width: 18rem;
     height: 18rem;
@@ -118,17 +121,23 @@
 
 .blueCircle {
     background: #1949b8;
-    left: 18rem;
+    left: 9rem;
     top: 0rem;
 }
 
 .yellowCircle {
     background: #f5c32c;
-    left: 18rem;
+    left: 9rem;
     top: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 651px) and ((max-width: 1000px)) {
+    .w-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
     .works {
         flex-direction: column;
         height: 55rem;

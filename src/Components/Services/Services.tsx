@@ -33,7 +33,7 @@ const Services: React.FC = () => {
         <div className="cards">
           <motion.div
             initial={{ left: "25rem" }}
-            whileInView={{ left: "14rem" }}
+            whileInView={{ left: "10rem" }}
             transition={transition}
           >
             <Card
@@ -44,7 +44,7 @@ const Services: React.FC = () => {
           </motion.div>
           <motion.div
             initial={{ left: "-11rem", top: "12rem" }}
-            whileInView={{ left: "-4rem" }}
+            whileInView={{ left: "-6rem" }}
             transition={transition}
           >
             <Card
@@ -55,7 +55,7 @@ const Services: React.FC = () => {
           </motion.div>
           <motion.div
             initial={{ top: "19rem", left: "25rem" }}
-            whileInView={{ left: "12rem" }}
+            whileInView={{ left: "11rem" }}
             transition={transition}
           >
             <Card

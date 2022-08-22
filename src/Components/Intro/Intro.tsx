@@ -18,7 +18,7 @@ import { motion } from "framer-motion"
 
 
 const Intro: React.FC = () => {
-  const transition = { duration: 2, type: 'spring' };
+  const transition = { duration: 1, type: 'spring' };
   return (
     <div className="intro">
       <div className="i-left">
@@ -57,8 +57,8 @@ const Intro: React.FC = () => {
           loading="lazy"
         />
         <motion.div
-          initial={{ top: '-4%', left: '74%' }}
-          whileInView={{ left: '68%'}}
+          initial={{ top: '17%', left: '60%' }}
+          whileInView={{ left: '50%'}}
           transition={transition}
           className="floating-div"
         >

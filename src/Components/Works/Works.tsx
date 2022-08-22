@@ -17,13 +17,14 @@ const Experience: React.FC = () => {
           <span>Works for All these</span>
           <span>Brands 	&#38; Clients</span>
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit voluptatem 
+            I Can Build An Interactive Web Sites ,Web Pages, and Web Apps
             <br />
-            Necessitatibus laborum voluptatem adipisicing sit elit dipisicing consectetur
+            With React Or Modern JS
             <br />
-            Necessitatibus laborum voluptatem 
             <br />
-            Necessitatibus laborum voluptatem dolor sit amet
+            I Have 1 Year Experience in Modern JS And React,
+            <br />
+            And 1.5 Year In HTML ,CSS, Vanilla JS, Bootstrap, And SCSS
           </span>
           <a href="https://t.me/hamzaSo83" rel="noreferrer" target="_blank">
             <button className="button w-button">Hire me</button>

@@ -72,6 +72,7 @@
 .i-right>* {
     position: absolute;
     z-index: 1;
+    transition: all .3s;
 }
 
 .i-right> :nth-child(1) {
@@ -115,7 +116,7 @@
     filter: blur(72px);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 440px) {
     .intro {
         flex-direction: column;
         gap: 7rem;
@@ -133,5 +134,31 @@
     }
     .floating-div:nth-of-type(1) {
         top: -7rem !important;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        gap: 5rem;
+        height: 64rem;
+    }
+    .i-right {
+        left: 2rem
+    }
+    .i-right .blur {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .floating-div:nth-of-type(1) {
+        opacity: 0;
+    }
+    .floating-div:nth-of-type(2) {
+        opacity: 0;
+    }
+    .i-left .i-icons {
+        margin-top: 1rem !important;
     }
 }
