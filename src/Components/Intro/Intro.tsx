@@ -5,7 +5,7 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 
 import Vector1 from '../../img/Vector1.webp'
 import Vector2 from '../../img/Vector2.webp'
-import Boy from '../../img/boy.webp'
+import Boy from '../../img/boy-removebg-preview (2).png'
 import Thumbup from '../../img/thumbup.webp'
 import Crown from '../../img/crown.webp'
 import Glassesimoji from '../../img/glassesimoji.webp'
