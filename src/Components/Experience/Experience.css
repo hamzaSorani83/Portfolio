@@ -11,10 +11,9 @@
 
 .e-blur {
     left: 50%;
-    top: 50%;
+    top: 160%;
     position: absolute;
     transform: translate(-50%, -70%);
-    width: 490px;
     height: 470px;
     filter: blur(84px);
 }
